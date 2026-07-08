@@ -1,0 +1,110 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.counter-container {
+  
+  background: rgba(255, 255, 255, 0.05); 
+  backdrop-filter: blur(12px); 
+  padding: 40px;
+  margin-left: 30%;
+  margin-top: 5%;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.1); 
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* 3. Sleek, glowing title */
+.counter-title {
+  color: #94a3b8;                 /* Muted silver-blue color */
+  font-size: 16px;
+  text-transform: uppercase;      /* Makes it look premium, like a dashboard label */
+  letter-spacing: 2px;            /* Adds professional space between letters */
+  margin-bottom: 0;
+}
+
+/* 4. Giant, glowing counter display */
+.counter-display {
+  font-size: 80px;                /* Super bold and giant weight */
+  font-weight: 800;
+  margin: 20px 0 35px 0;
+  color: #ffffff;
+  /* Gives the number a soft, futuristic white neon glow */
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.2); 
+}
+
+/* 5. Minimalist button arrangement */
+.button-group {
+  display: flex;
+  flex-direction: column;         /* Stacks buttons vertically for a clean layout */
+  gap: 12px;                      /* Spacing between the stacked buttons */
+}
+
+/* 6. Base premium button style */
+.btn {
+  padding: 14px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1); /* Ultra-smooth movement curve */
+}
+
+
+.btn-increase {
+  background: #6366f1;            
+  border: none;
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3); 
+}
+
+.btn-decrease {
+  background: transparent;
+  color: #f1f5f9;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-reset {
+  background: transparent;
+  color: #64748b;                 
+  border: none;
+}
+
+
+.btn-increase:hover {
+  background: #4f46e5;           
+  transform: translateY(-2px);   
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4); 
+}
+
+.btn-decrease:hover {
+  background: #4f46e5;           
+  transform: translateY(-1px);   
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4); 
+}
+
+.btn-reset:hover {
+  color: #f1f5f9;                
+}
+
+
+.btn:active {
+  transform: scale(0.97); 
+}
+
+.status-title{
+   color: #94a3b8;                 /* Muted silver-blue color */
+  font-size: 16px;
+  text-transform: uppercase;      /* Makes it look premium, like a dashboard label */
+  letter-spacing: 2px;            /* Adds professional space between letters */
+   
+}
